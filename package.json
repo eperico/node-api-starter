@@ -1,0 +1,43 @@
+{
+  "name": "node-api-starter",
+  "version": "1.0.0",
+  "description": "A project starter for an API server based on node, express, passport, mongoose, coffee-script",
+  "readme": "README.md",
+  "main": "server/api.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eperico/node-api-starter.git"
+  },
+  "license": "GPL v3",
+  "dependencies": {
+    "async": "^2.4.0",
+    "body-parser": "^1.17.2",
+    "config": "^1.26.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "helmet": "^3.6.0",
+    "highland": "^2.10.5",
+    "js-yaml": "^3.6.1",
+    "lateral": "^3.0.5",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.13",
+    "mongoose": "^4.10.0",
+    "oauth2orize": "^1.8.0",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-oauth2-client-password": "^0.1.2",
+    "strong-cluster-control": "^2.2.3",
+    "underscore": "^1.8.3",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "xss": "^0.1.12"
+  }
+}

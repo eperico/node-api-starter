@@ -1,0 +1,20 @@
+debug: true
+cache_bust_version: 1
+
+database:
+  connection: "mongodb://localhost/api-starter"
+
+web:
+  api:
+    allowed_domain: "*"
+    port: 3000
+    clients:
+      trade_api:
+        _id: "trade_api"
+        clientId: "trade_api"
+        clientSecret: "KES_AkeAjL=$4EXFBFDHBP-VCk!HcM5nvkzT#5&m8^R7-at&=?a9g+n=z97XA-ZR"
+        access_token_expiry: 3
+        refresh_token_expiry: 30
+
+security:
+  customer_hash: "xyvY,q2j/oE9"
