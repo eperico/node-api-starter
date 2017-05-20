@@ -1,0 +1,14 @@
+# see http://pm2.keymetrics.io/docs/usage/application-declaration/ for details
+apps:
+  - script   : /home/ubuntu/web/sites/node-api-starter/servers/api.coffee
+    name     : 'node-api-starter'
+    instances: 1
+    node_args: ["--harmony"]
+    exec_mode: cluster
+    exec_interpreter: /home/ubuntu/.nvm/versions/node/v6.10.2/bin/coffee
+    merge_logs: true
+    watch: false
+    cwd: /home/ubuntu/web/sites/node-api-starter
+    env:
+      NODE_ENV: staging
+      NODE_CONFIG_DIR: /home/ubuntu/web/sites/node-api-starter/config
